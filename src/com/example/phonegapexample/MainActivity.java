@@ -14,15 +14,7 @@ public class MainActivity extends DroidGap {
 		super.onCreate(savedInstanceState);
 		super.loadUrl(Config.getStartUrl());
 		
-		final Handler handler = new Handler();
-		handler.postDelayed(new Runnable() {
-        public void run() {
-        	
-            Intent mInHome = new Intent(MainActivity.this, Page2.class);
-            MainActivity.this.startActivity(mInHome);
-            MainActivity.this.finish();
-        	}
-		}, 2000);
+	
 	}
 
 	

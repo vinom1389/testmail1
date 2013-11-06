@@ -2,10 +2,14 @@
  <html>  
  <head>  
  <title>PhoneGap</title>  
-  <script type="text/javascript" charset="utf-8" src="cordova.js">  
-  </script>  
+  <script type="text/javascript" charset="utf-8" src="cordova.js"> </script> 
+   <script type="text/javascript" charset="utf-8" src="mycode.js">   </script>   
+
   </head>  
-  <body>  
-  <h1>Hello PhoneGap</h1>  
+  <body onload="init()">  
+  <form>
+  <h1>Hello PhoneGap</h1> 
+   <input type="button" name="button" value="click" onClick="msg()">
+   </form>
   </body>  
   </html> 
